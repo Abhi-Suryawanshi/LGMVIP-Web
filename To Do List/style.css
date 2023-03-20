@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(175, 248, 248);
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	margin: 20px auto;
+	max-width: 600px;
+	padding: 0 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.form-group {
+	display: flex;
+	
+}
+
+.form-group input {
+    flex: 1;
+	border-color: black;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	margin-right: 10px;
+}
+
+.form-group button {
+	font-size: large;
+	background-color: rgb(240, 229, 22);
+	color: black;
+	border: NONE;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+	
+}
+
+.task-list {
+	margin: 20px 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.task-list li {
+	background-color: white;
+	padding: 10px;
+    margin-bottom: 10px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+}
+
+.task-list li span {
+	flex: 1;
+}
+
+.task-list li button {
+	background-color: red;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+	margin-left: 10px;
+}
