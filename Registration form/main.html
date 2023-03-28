@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = 'stylesheet' href = 'style.css'> 
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <div class = 'form-container'>
+    <form id ='registration' onsubmit="return displayInput()">
+       <br> <h2>Student Registration form</h2>
+    <div class = 'container'>
+
+            <label for = 'name'><b>Student's Name:</b></label>
+            <input type = 'text' id = 'name' placeholder = 'Enter your name' required autocomplete="off"> 
+            
+            <label for = 'mail'><b>Email Address:</b></label>
+            <input type = 'email' id = 'mail' placeholder = 'Enter your Mail ID' required autocomplete="off">
+            
+            <label for = 'phone'><b>Contact Number:</b></label>
+            <input type = 'tel' id = 'phone' placeholder="Enter your phone number" required autocomplete="off">
+            
+            <label for = 'gender'><b>Gender:</b></label>
+                <label class = 'radio-label' for = 'male'>Male</label>
+                <input class = 'radio' type = 'radio' id = 'male' name = 'gender'><br>
+                <label class = 'radio-label' for = 'female'>Female</label>
+                <input class = 'radio' type = 'radio' id = 'female' name = 'gender'><br><br>
+
+            <button type = 'submit'>Register</button>
+    </div>
+        </form>
+        <div id = 'student-info'>
+           <h2> Registered Students </h2>       
+        </div>
+        </div>
+        <script src = 'script.js'></script>
+</body>
+</html>
